@@ -1,0 +1,14 @@
+{
+  "name": "mds-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "npm run serve:ssr & npm run electron:app",
+    "serve:ssr": "node dist/mds-starter/server/main.js && npm run show:app",
+    "electron:app": "electron ."
+  },
+  "main": "app.js",
+  "private": true,
+  "dependencies": {
+    "electron": "^19.0.9"
+  }
+}
